@@ -12,4 +12,9 @@ SELECT DISTINCT Country FROM Customers; -- Select all the different countries fr
 
 SELECT * FROM Customers WHERE Country ='Mexico'; --Select all customers from Mexico.
 
-SELECT * FROM Products ORDER BY Price; -- 
+SELECT * FROM Products ORDER BY Price; -- Orders by price ascesnding
+
+SELECT * FROM Products ORDER BY Pricen DESC; --Orders by prive descending
+
+SELECT * FROM Customers ORDER BY Country, CustomerName; --
+
