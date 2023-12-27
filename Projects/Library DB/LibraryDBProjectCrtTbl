@@ -1,0 +1,31 @@
+-- Project by Logan Bernthall, created on 10/12/2023
+-- Project created to help author learn SQL - DO NOT USE THIS FOR ANY COMMERCIAL OR BUSINESS USE AS REAL-WORLD APPLICATION MAY NOT BE SUFFICIENT
+
+
+--This file creates Tables for Library 
+
+--Create table of books
+CREATE TABLE Books (
+    book_id INT PRIMARY KEY,
+    title VARCHAR(250) NOT NULL,
+    author VARCHAR(250) NOT NULL,
+    genre VARCHAR (250),
+    date_read DATE,
+    added_date DATE,
+    Want_To_Read BIT,
+    Book_Read BIT 
+);
+
+--Create a table of books to be read from the books table
+CREATE TABLE Books_Read (
+    book_read_id INT PRIMARY KEY,
+    book_id INT,
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
+);
+
+--Create a table of books wanted to be read from the books table
+CREATE TABLE Books_Want_to_Read (
+    book_want_id INT PRIMARY KEY,
+    book_id INT,
+    FOREIGN KEY (book_id) REFERENCES Books(book_id)
+);
