@@ -1,0 +1,8 @@
+--Show Books table
+SELECT * FROM Books;
+
+--Show Books_Read table
+SELECT * FROM Books_Read;
+
+-- Show Books_Want_to_Read table 
+SELECT * FROM Books_Want_to_Read;

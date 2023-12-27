@@ -1,0 +1,1 @@
+INSERT INTO Books VALUES('12 Rules for Life: An Antidote to Chaos', 'Jordan Peterson', 'Self-Help', '2023-07-20', '2023-12-27', 1, 1);
