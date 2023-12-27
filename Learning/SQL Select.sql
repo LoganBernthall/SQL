@@ -18,3 +18,5 @@ SELECT * FROM Products ORDER BY Pricen DESC; --Orders by prive descending
 
 SELECT * FROM Customers ORDER BY Country, CustomerName; --
 
+
+
