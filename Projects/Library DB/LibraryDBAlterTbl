@@ -1,0 +1,9 @@
+-- Table alter for books table as truncation issues occuring
+ALTER TABLE Books ALTER COLUMN genre VARCHAR (250) NOT NULL;
+ALTER TABLE Books ALTER COLUMN date_read VARCHAR (250) NOT NULL;
+ALTER TABLE Books ALTER COLUMN added_date VARCHAR (250) NOT NULL;
+ALTER TABLE Books ALTER COLUMN Want_to_Read VARCHAR (250) NOT NULL;
+ALTER TABLE Books ALTER COLUMN Book_Read VARCHAR (250) NOT NULL;
+
+
+

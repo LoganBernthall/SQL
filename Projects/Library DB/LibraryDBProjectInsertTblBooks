@@ -1,1 +1,1 @@
-INSERT INTO Books VALUES('12 Rules for Life: An Antidote to Chaos', 'Jordan Peterson', 'Self-Help', '2023-07-20', '2023-12-27', 1, 1);
+INSERT INTO Books (book_id, title, author, genre, date_read, added_date, Want_To_Read, Book_Read) VALUES(1, '12 Rules for Life: An Antidote to Chaos', 'Jordan Peterson', 'Self-Help', '2023-07-20', '2023-12-27', 1, 1);
