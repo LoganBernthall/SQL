@@ -1,0 +1,14 @@
+--Insert into books want to read table:
+
+--Check what needs to be added
+SELECT * FROM Books WHERE  Want_To_Read = '1';
+
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (1, 1);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (2, 2);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (3, 3);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (4, 4);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (5, 6);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (6, 7);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (7, 18);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (8, 35);
+INSERT INTO Books_Want_to_Read (book_want_id, book_id) VALUES (9, 39);

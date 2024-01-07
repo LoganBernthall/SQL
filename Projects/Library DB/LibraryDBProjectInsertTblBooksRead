@@ -1,0 +1,8 @@
+--Inserting data into books read table with referential data from table Books from DB
+
+SELECT * FROM Books WHERE  Book_Read='1';
+
+INSERT INTO Books_Read (book_read_id, book_id) VALUES (1, 1);
+INSERT INTO Books_Read (book_read_id, book_id) VALUES (2, 2);
+INSERT INTO Books_Read (book_read_id, book_id) VALUES (3, 3);
+INSERT INTO Books_Read (book_read_id, book_id) VALUES (4, 4);
