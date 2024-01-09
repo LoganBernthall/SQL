@@ -1,0 +1,41 @@
+-- Project by Logan Bernthall, created on 09/01/2024
+-- Project created to help author learn SQL - DO NOT USE THIS FOR ANY COMMERCIAL OR BUSINESS USE AS REAL-WORLD APPLICATION MAY NOT BE SUFFICIENT
+
+--This file will create the SQL tables for a record shop
+
+--Tables to create Products, Customers, sales, sales details, employees, suppliers, transactions, generes 
+
+--Products table
+
+CREATE TABLE Products(
+    ProductID INT PRIMARY KEY,
+    Title VARCHAR(250) NOT NULL,
+    Artist VARCHAR(250) NOT NULL,
+    Genre VARCHAR(250),
+    DateReleased DATE,
+    Price DECIMAL,
+    QuantityInStock INT,
+     FOREIGN KEY SupplierIDF REFERENCES Supplier(SupplierID)
+)
+
+--Customer table
+
+CREATE TABLE Customers
+(
+    CustomerID INT PRIMARY KEY,
+    Fname VARCHAR(250) NOT NULL,
+    Lname VARCHAR(250) NOT NULL, 
+    Email VARCHAR(250),
+    Phone INT,
+    HomeAddress VARCHAR(250)
+)
+
+--Sales Table
+
+CREATE TABLE Sales
+(
+    SaleID INT PRIMARY KEY,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    
+
+)
