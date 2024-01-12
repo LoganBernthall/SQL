@@ -7,6 +7,8 @@
 
 --Products table
 
+-- WARNING - DUE TO THE AMMOUNT OF FOREIGN KEYS WITHIN THE TABLES, TABLES NEED TO BE ADDED ONE BY ONE
+
 CREATE TABLE Products(
     ProductID INT PRIMARY KEY,
     Title VARCHAR(250) NOT NULL,
@@ -15,8 +17,8 @@ CREATE TABLE Products(
     DateReleased DATE,
     Price DECIMAL,
     QuantityInStock INT,
-     FOREIGN KEY SupplierIDF REFERENCES Supplier(SupplierID)
-)
+    FOREIGN KEY (SupplierID) REFERENCES Supplier(SupplierID)
+) 
 
 --Customer table
 
@@ -35,7 +37,53 @@ CREATE TABLE Customers
 CREATE TABLE Sales
 (
     SaleID INT PRIMARY KEY,
-    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
-    
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+)
 
+-- Sales Details Table
+
+CREATE TABLE SalesDetails
+(
+    FOREIGN KEY (SalesID) REFERENCES Sales(SaleID),
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID),
+    QuantitySold INT,
+    PricePerUnit DECIMAL
+)
+
+-- Employee Table
+
+CREATE TABLE Employees
+(
+    EmployeeID INT PRIMARY KEY,
+    Fname VARCHAR(250) NOT NULL,
+    Lname VARCHAR(250) NOT NULL,
+    Position VARCHAR(250) NOT NULL,
+    PhoneNumber INT
+)
+
+-- Supplier Table
+
+CREATE TABLE Suppliers
+(
+    SupplierID INT PRIMARY KEY,
+    SupplierName VARCHAR(250) NOT NULL,
+    PhoneNumber INT
+)
+
+-- Transaction Table
+
+CREATE TABLE Transactions
+(
+    TransactionID INT PRIMARY KEY,
+    TransactionType VARCHAR (250) NOT NULL,
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+)
+
+-- Genre Table
+
+CREATE TABLE Genre
+(
+    GenreID INT PRIMARY KEY,
+    GenreName VARCHAR(250) NOT NULL,
+    GenreDescription VARCHAR (250) NOT NULL
 )
