@@ -1,0 +1,7 @@
+INSERT INTO Employees(EmployeeID, Fname, Lname, Position, PhoneNumber) Values(1, "Logan", "Bernthall", "Manager", 01210315);
+INSERT INTO Employees(EmployeeID, Fname, Lname, Position, PhoneNumber) Values(2, "Bob", "Vance", "Sales Rep", 01210316);
+INSERT INTO Employees(EmployeeID, Fname, Lname, Position, PhoneNumber) Values(3, "Pam", "Halpert", "Sales Rep", 01210312);
+INSERT INTO Employees(EmployeeID, Fname, Lname, Position, PhoneNumber) Values(4, "Jim", "Halpert", "Sales Rep", 01210375);
+INSERT INTO Employees(EmployeeID, Fname, Lname, Position, PhoneNumber) Values(5, "Dwight", "Schrute", "Assistant to the manager", 01310315);
+INSERT INTO Employees(EmployeeID, Fname, Lname, Position, PhoneNumber) Values(6, "Toby", "Flenderson", "HR", 04210315);
+INSERT INTO Employees(EmployeeID, Fname, Lname, Position, PhoneNumber) Values(7, "Creed", "Braton", "QA", 01215315);

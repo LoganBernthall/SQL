@@ -1,0 +1,23 @@
+-- Show Genre table
+SELECT * FROM Genre;
+
+-- Show Employees table
+SELECT * FROM Employees;
+
+-- Show Customers table 
+SELECT * FROM Customers;
+
+-- Show suppliers table 
+SELECT * FROM Suppliers;
+
+-- Show Products table
+SELECT * FROM Products;
+
+-- Show Sales table
+SELECT * FROM Sales;
+
+-- Show SalesDetails table
+SELECT * FROM SalesDetails;
+
+-- Show Transaction table
+SELECT * FROM Transactions;
