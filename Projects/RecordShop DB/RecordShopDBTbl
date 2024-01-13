@@ -5,49 +5,16 @@
 
 --Tables to create Products, Customers, sales, sales details, employees, suppliers, transactions, generes 
 
---Products table
 
 -- WARNING - DUE TO THE AMMOUNT OF FOREIGN KEYS WITHIN THE TABLES, TABLES NEED TO BE ADDED ONE BY ONE
 
-CREATE TABLE Products(
-    ProductID INT PRIMARY KEY,
-    Title VARCHAR(250) NOT NULL,
-    Artist VARCHAR(250) NOT NULL,
-    Genre VARCHAR(250),
-    DateReleased DATE,
-    Price DECIMAL,
-    QuantityInStock INT,
-    FOREIGN KEY (SupplierID) REFERENCES Supplier(SupplierID)
-) 
+-- Genre Table
 
---Customer table
-
-CREATE TABLE Customers
+CREATE TABLE Genre
 (
-    CustomerID INT PRIMARY KEY,
-    Fname VARCHAR(250) NOT NULL,
-    Lname VARCHAR(250) NOT NULL, 
-    Email VARCHAR(250),
-    Phone INT,
-    HomeAddress VARCHAR(250)
-)
-
---Sales Table
-
-CREATE TABLE Sales
-(
-    SaleID INT PRIMARY KEY,
-    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
-)
-
--- Sales Details Table
-
-CREATE TABLE SalesDetails
-(
-    FOREIGN KEY (SalesID) REFERENCES Sales(SaleID),
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID),
-    QuantitySold INT,
-    PricePerUnit DECIMAL
+    GenreID INT PRIMARY KEY,
+    GenreName VARCHAR(250) NOT NULL,
+    GenreDescription VARCHAR (250) NOT NULL
 )
 
 -- Employee Table
@@ -61,6 +28,18 @@ CREATE TABLE Employees
     PhoneNumber INT
 )
 
+--Customer table
+
+CREATE TABLE Customers
+(
+    CustomerID INT PRIMARY KEY,
+    Fname VARCHAR(250) NOT NULL,
+    Lname VARCHAR(250) NOT NULL, 
+    Email VARCHAR(250),
+    Phone INT,
+    HomeAddress VARCHAR(250)
+)
+
 -- Supplier Table
 
 CREATE TABLE Suppliers
@@ -70,20 +49,39 @@ CREATE TABLE Suppliers
     PhoneNumber INT
 )
 
+--Products table
+
+
+CREATE TABLE Products(
+    ProductID INT PRIMARY KEY,
+    Title VARCHAR(250) NOT NULL,
+    Artist VARCHAR(250) NOT NULL,
+    Genre VARCHAR(250),
+    DateReleased DATE,
+    Price DECIMAL,
+    QuantityInStock INT
+) 
+
+
+--Sales Table
+
+CREATE TABLE Sales
+(
+    SaleID INT PRIMARY KEY,
+)
+
+-- Sales Details Table
+
+CREATE TABLE SalesDetails
+(
+    QuantitySold INT,
+    PricePerUnit DECIMAL
+)
+
 -- Transaction Table
 
 CREATE TABLE Transactions
 (
     TransactionID INT PRIMARY KEY,
     TransactionType VARCHAR (250) NOT NULL,
-    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
-)
-
--- Genre Table
-
-CREATE TABLE Genre
-(
-    GenreID INT PRIMARY KEY,
-    GenreName VARCHAR(250) NOT NULL,
-    GenreDescription VARCHAR (250) NOT NULL
 )
