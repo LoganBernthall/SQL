@@ -1,0 +1,107 @@
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(1, 'John', 'Doe', 'john.doe@example.com', 5551234, '123 Main St, Cityville, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(2, 'Jane', 'Smith', 'jane.smith@example.com', 5555678, '456 Oak St, Townsville, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(3, 'Robert', 'Johnson', 'robert.j@example.com', 5559876, '789 Pine St, Villagetown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(4, 'Emily', 'Williams', 'emily.w@example.com', 5554321, '234 Cedar St, Hamletown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(5, 'Michael', 'Brown', 'michael.b@example.com', 5558765, '567 Maple St, Suburbia, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(6, 'Sophia', 'Davis', 'sophia.d@example.com', 5557890, '890 Birch St, Villageland, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(7, 'Daniel', 'Miller', 'daniel.m@example.com', 5552345, '345 Pine St, Citytown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(8, 'Olivia', 'Anderson', 'olivia.a@example.com', 5556789, '678 Elm St, Countryside, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(9, 'William', 'Garcia', 'william.g@example.com', 5553210, '012 Oak St, Villagesville, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(10, 'Emma', 'Martinez', 'emma.m@example.com', 5557654, '543 Cedar St, Hamletown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(11, 'Liam', 'Taylor', 'liam.t@example.com', 5552109, '109 Maple St, Suburbia, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(12, 'Ava', 'Jackson', 'ava.j@example.com', 5555432, '432 Birch St, Villageland, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(13, 'Mason', 'White', 'mason.w@example.com', 5558765, '765 Pine St, Citytown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(14, 'Isabella', 'Harris', 'isabella.h@example.com', 5554321, '321 Elm St, Countryside, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(15, 'Jackson', 'Martin', 'jackson.m@example.com', 5557890, '890 Oak St, Villagesville, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(16, 'Sophie', 'Clark', 'sophie.c@example.com', 5552345, '345 Cedar St, Hamletown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(17, 'Henry', 'Lewis', 'henry.l@example.com', 5556789, '678 Maple St, Suburbia, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(18, 'Amelia', 'Lee', 'amelia.l@example.com', 5553210, '010 Birch St, Villageland, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(19, 'Ethan', 'Walker', 'ethan.w@example.com', 5557654, '543 Pine St, Citytown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(20, 'Mia', 'Young', 'mia.y@example.com', 5552109, '109 Elm St, Countryside, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(21, 'Noah', 'Wright', 'noah.w@example.com', 5555432, '432 Maple St, Villagesville, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(22, 'Ella', 'Hall', 'ella.h@example.com', 5558765, '765 Cedar St, Hamletown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(23, 'Logan', 'Lopez', 'logan.l@example.com', 5554321, '321 Oak St, Suburbia, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(24, 'Avery', 'Green', 'avery.g@example.com', 5557890, '890 Birch St, Citytown, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(25, 'Gabriel', 'Adams', 'gabriel.a@example.com', 5552345, '345 Pine St, Countryside, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(26, 'Aria', 'Perez', 'aria.p@example.com', 5556789, '678 Cedar St, Villageland, State');
+
+INSERT INTO Customers (CustomerID, Fname, Lname, Email, Phone, HomeAddress)
+VALUES 
+(27, 'Elijah', 'Turner', 'elijah.t@example.com', 5553210, '010 Elm St, Hamletown, State');
