@@ -1,0 +1,1 @@
+* Schema - a visual representation of how a databse is organised, showing tables, fields and keys. Arrows are used to show how the tables are related.
