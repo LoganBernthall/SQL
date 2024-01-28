@@ -1,1 +1,9 @@
 * Schema - a visual representation of how a databse is organised, showing tables, fields and keys. Arrows are used to show how the tables are related.
+
+* ASC - sorts data in ascending order (from smallest to largest or A to Z).
+
+* Desc - sorts data in descending order (from largest to smallest or Z to A).
+
+* LIMIT - Extracts a limited number of records.
+
+* OFFSET - Used with LIMIT to skip a number of records.
