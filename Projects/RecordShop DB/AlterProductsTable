@@ -1,0 +1,11 @@
+--Adding foreign key of genre ID to save typing every genre out again
+ALTER TABLE Products
+    ADD GenreID INT
+    REFERENCES Genre(GenreID);
+    
+--Dropping genre column, we are going to use the foreign key instead now
+ALTER TABLE Products DROP COLUMN Genre
+
+--Whilst we are at it, lets add some extra genres to the genre table!
+INSERT INTO Genre (GenreID, GenreName, GenreDescription) VALUES (31, 'Grime', 'Grime is a genre of electronic dance music (EDM) that emerged in London in the early 2000s.');
+INSERT INTO Genre (GenreID, GenreName, GenreDescription) VALUES (32,'UK Drill', 'UK drill is a subgenre of drill music and road rap that originated in the South London district of Brixton from 2012 onwards.');
