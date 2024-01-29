@@ -1,1 +1,1 @@
-INSERT INTO Products (ProductID, Title, Artist, Genre, DateReleased, Price, QuantityInStock, SupplierID) VALUES (1, 'Ignorance is Bliss', 'Skepta', 'Grime','', '', '', ''); 
+INSERT INTO Products (ProductID, Title, Artist, DateReleased, Price, QuantityInStock, SupplierID, GenreID) VALUES (1, 'Ignorance is Bliss', 'Skepta', '31-05-2019','price', '23', '3', '31'); 
