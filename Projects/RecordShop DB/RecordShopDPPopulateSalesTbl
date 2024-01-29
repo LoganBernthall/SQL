@@ -1,0 +1,5 @@
+INSERT INTO Sales (SaleID, CustomerID) VALUES (1, 2);
+INSERT INTO Sales (SaleID, CustomerID) VALUES (2, 12);
+INSERT INTO Sales (SaleID, CustomerID) VALUES (3, 16);
+INSERT INTO Sales (SaleID, CustomerID) VALUES (4, 27);
+INSERT INTO Sales (SaleID, CustomerID) VALUES (5, 4);
