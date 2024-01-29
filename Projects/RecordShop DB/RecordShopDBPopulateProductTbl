@@ -1,1 +1,11 @@
-INSERT INTO Products (ProductID, Title, Artist, DateReleased, Price, QuantityInStock, SupplierID, GenreID) VALUES (1, 'Ignorance is Bliss', 'Skepta', '31-05-2019','price', '23', '3', '31'); 
+--INSERT INTO Products (ProductID, Title, Artist, DateReleased, Price, QuantityInStock, SupplierID, GenreID) VALUES (1, 'Ignorance is Bliss', 'Skepta', '2019-05-31','11.89', '23', '3', '31'); 
+INSERT INTO Products (ProductID, Title, Artist, DateReleased, Price, QuantityInStock, SupplierID, GenreID) VALUES (2, 'The Dark Side of the Moon', 'Pink Floyd', '1973-03-01', '12.00',  '200', '3', '21');
+
+-- Inserting multiple records in a single statement
+INSERT INTO Products (ProductID, Title, Artist, DateReleased, Price, QuantityInStock, SupplierID, GenreID)
+VALUES 
+    (3, 'Thriller', 'Michael Jackson', '1982-11-30', '24.99', '150', '2', '2'),
+    (4, 'Abbey Road', 'The Beatles', '1969-09-26', '27.99', '120', '3', '21'),
+    (5, 'Back in Black', 'AC/DC', '1980-07-25', '22.99', '110', '4', '21'),
+    (6, 'Rumours', 'Fleetwood Mac',  '1977-02-04', '26.99', '90', '5', '21');
+
