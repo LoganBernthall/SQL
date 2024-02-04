@@ -7,3 +7,29 @@
 * LIMIT - Extracts a limited number of records.
 
 * OFFSET - Used with LIMIT to skip a number of records.
+
+* JOIN - Joins tables together.
+
+* LEFT JOIN - Returns all rows from the left table, and the matching rows from the right.
+
+* OUTER JOIN - Returns alls rows when there is a match in either left table or right table.
+
+* UNION - Combines the results of two or more SELECT statements into a single result set.
+
+* SET - Assigns a vlaue to a variable or modifies the value of a database property.
+
+* ADD - Adds a column to an existing table.
+
+* UPDATE - Modifies exisitng data in a tabl .
+
+* BETWEEN - Specifies a range to searcg for a value in a condition.
+
+* EXISTS - Tests for the existence of any record in a subquery.
+
+* TRUNCATE - Deletes all date from a table but keeps the table structure.
+
+* WHERE - Used to extract records that meet a condition.
+
+* CONCAT - Joins strings together.
+
+* AS - Gives a column a temporary name.
