@@ -4,7 +4,8 @@ This repository is to showcase learning and simple SQL projects I have created t
 
 * Learning - Files of basic SQL functions
 
-  * Keywords- A txt file containing simple keyword explanations. 
+* Keywords- A txt file containing simple keyword explanations.
+  
 * Projects:
   
 *   Library database - simple database showing the relationship between tables in a very simple manner. Would not recommend using this method in a real setting as this is purely for the purpose of showing relationship database logic.
